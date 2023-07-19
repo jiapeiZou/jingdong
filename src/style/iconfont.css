@@ -1,0 +1,14 @@
+/* icon 图标的引入链接。每次添加图标后需要更新链接 */
+@font-face {
+  font-family: 'iconfont';  /* Project id 4135571 */
+  src: url('//at.alicdn.com/t/c/font_4135571_4o5u6ry6afx.woff2?t=1689429133582') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4135571_4o5u6ry6afx.woff?t=1689429133582') format('woff'),
+       url('//at.alicdn.com/t/c/font_4135571_4o5u6ry6afx.ttf?t=1689429133582') format('truetype');
+}
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 0.16rem;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }

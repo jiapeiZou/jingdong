@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    
+    <!-- 实现项目 等比例适配不同的展示设备 （开发时，以iPhone SE 为显示标准 宽x高 = 375 x 667）-->
+    <script>
+      var width = document.documentElement.clientWidth || document.body.clientWidth // 获取 设备屏幕的宽度 : 当前新设备的宽度 or 开发的设备宽度
+      var ratio = width / 375 // 获取：当前使用的设备宽度 / 开发设备宽度  的比例
+      var fontSize = 100 * ratio // 获取:新的fontsize 实现等比例放大 或缩小 : 新设备与开发设备的宽度比 x 100 ( 开发时设置的fantasize = 100px )
+      document.getElementsByTagName('html')[0].style['font-size'] = fontSize + 'px'
+    </script>
+
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
