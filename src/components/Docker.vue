@@ -44,6 +44,8 @@ export default {
     padding: 0 0.18rem; //上下内边距为 0，左右为18px
     box-sizing: border-box; //这个属性控制 CSS 的盒模型的行为；宽度和高度包括了边框和内边距，但不包括外边距（margin）
     color: #333;
+    z-index: 99;
+    background: #fff;
 
     &__item {
         flex: 1;

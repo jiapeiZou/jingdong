@@ -1,9 +1,9 @@
-/* icon 图标的引入链接。每次添加图标后需要更新链接 */
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
 @font-face {
   font-family: 'iconfont';  /* Project id 4135571 */
-  src: url('//at.alicdn.com/t/c/font_4135571_4o5u6ry6afx.woff2?t=1689429133582') format('woff2'),
-       url('//at.alicdn.com/t/c/font_4135571_4o5u6ry6afx.woff?t=1689429133582') format('woff'),
-       url('//at.alicdn.com/t/c/font_4135571_4o5u6ry6afx.ttf?t=1689429133582') format('truetype');
+  src: url('//at.alicdn.com/t/c/font_4135571_iiax58quzui.woff2?t=1692195549487') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4135571_iiax58quzui.woff?t=1692195549487') format('woff'),
+       url('//at.alicdn.com/t/c/font_4135571_iiax58quzui.ttf?t=1692195549487') format('truetype');
 }
   .iconfont {
     font-family: "iconfont" !important;
