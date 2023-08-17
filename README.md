@@ -1,24 +1,38 @@
-# jingdong
+# 京东买菜
 
-## Project setup
+模拟京东买菜的前端项目，用于学习Vue3的基础开发能力。
+
+## 安装依赖
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 命令
+
+开发模式：
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+发布：
 ```
 npm run build
 ```
 
-### Lints and fixes files
+语法检查：
 ```
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 运行截图
+
+![](imgs/home.png)
+
+
+![](imgs/store.png)
+
+
+![](imgs/order.png)
+
+
+![](imgs/user.png)
